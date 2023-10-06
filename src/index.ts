@@ -29,7 +29,7 @@ app.use("/user", userRoutes);
 
 mongoose
   .connect(
-    "mongodb+srv://pranavg21:W083lMyBkVjrV6Iw@cluster0.qjoxsuo.mongodb.net/"
+    "YOUR_MONGO_URL"
   )
   .then(() => {
     app.listen(5000, () => {
